@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="js/jquery.mobile-1.4.4.min.css">
+      <script src="js/jquery-1.11.1.min.js"></script>
+      <script src="js/jquery.mobile-1.4.4.min.js"></script>
+      <script src="js/app.js"> </script>
+   </head>
+   <body>
+      <div data-role="page">
+         <div data-role="header">
+            <h1>Postal Code App</h1>
+         </div>
+         <div data-role="main" class="ui-content">
+            <br>
+
+            <label for="postal">ENTER POSTAL CODE:</label>
+            <div data-role="fieldcontain">
+               <input type="text" name="postal" id="name" value=""  />
+            </div>
+
+            <a data-role="button" onclick="fetchLocation()">GET LOCATION</a>
+
+         </div>
+      </div>
+   </body>
+</html>
